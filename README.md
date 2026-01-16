@@ -143,7 +143,7 @@ The project includes comprehensive tests covering:
 - ✅ Whitespace handling
 - ✅ Mixed movie types
 ```
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 ```
 
 ### Pricing
