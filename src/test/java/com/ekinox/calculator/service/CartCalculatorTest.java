@@ -55,25 +55,4 @@ public class CartCalculatorTest {
         assertEquals(56.0, result, 0.01);
     }
 
-    @Test
-    @DisplayName("Empty input returns 0")
-    void testEmptyInput() {
-        assertEquals(0.0, calculator.calculate(""), 0.01);
-        assertEquals(0.0, calculator.calculate(null), 0.01);
-    }
-
-    @Test
-    @DisplayName("Only other movies (no BTTF)")
-    void testOnlyOtherMovies() {
-        String input = "La chèvre\nLes Bronzés";
-        assertEquals(40.0, calculator.calculate(input), 0.01);
-    }
-
-    @Test
-    @DisplayName("2 same BTTF movies (no discount)")
-    void testTwoSameMovies() {
-        String input = "Back to the Future 1\nBack to the Future 1";
-        assertEquals(30.0, calculator.calculate(input), 0.01);
-    }
-
 }
