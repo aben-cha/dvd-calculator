@@ -21,12 +21,19 @@ public class CartCalculator {
 
     // Calculate total price from input string
     public double calculate(String input) {
-        if (input == null || input.trim().isEmpty()) {
+        if (input == null) {
+            throw new IllegalArgumentException("Input cannot be null");
+        }
+        if (input.trim().isEmpty()) {
             return 0.0;
         }
 
-        List<String> movieNames = parseInput(input);
-        return calculateTotal(movieNames);
+        try {
+            List<String> movieNames = parseInput(input);
+            return calculateTotal(movieNames);
+        } catch (Exception e) {
+            throw new RuntimeException("Error calculating cart total", e);
+        }
     }
 
 
