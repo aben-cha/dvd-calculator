@@ -15,7 +15,12 @@ public enum MovieType {
     }
 
     public static MovieType fromName(String movieName) {
-        if (movieName != null && movieName.startsWith("Back to the Future")) {
+        if (movieName == null) {
+            return OTHER;
+        }
+
+        String normalized = movieName.trim().toLowerCase();
+        if (normalized.startsWith("back to the future")) {
             return BACK_TO_THE_FUTURE;
         }
         return OTHER;
