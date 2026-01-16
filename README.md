@@ -1,5 +1,5 @@
 # DVD Calculator
-This project is a technical assessment for the Fullstack Developer position at Ekinox. The goal is to implement a flexible pricing engine for a DVD store that applies specific strategic discounts for the Back to the Future saga.
+A Java application that calculates the total price of a DVD shopping cart with special discounts for the "Back to the Future" trilogy.
 
 ## 📋 Table of Contents
 
