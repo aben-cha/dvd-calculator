@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello and !");
         CartCalculator calculator = new CartCalculator();
 
         System.out.println("=== DVD Price Calculator ===");
