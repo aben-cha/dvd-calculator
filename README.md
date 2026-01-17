@@ -250,7 +250,7 @@ The project follows clean architecture principles with clear separation of conce
 - **Service Layer**: Contains business logic (calculations, discounts)
 - **Separation of Concerns**: Each class has a single, well-defined responsibility
 
-### Design Patterns
+### Design Principles
 
 #### Single Responsibility Principle (SRP)**: Each class has one clear purpose
   - `DiscountCalculator` handles only discount calculation logic
