@@ -252,9 +252,10 @@ The project follows clean architecture principles with clear separation of conce
 
 ### Design Patterns
 
-#### Strategy Pattern
-- `DiscountCalculator` encapsulates discount calculation logic
-- Easy to extend with new discount rules without modifying existing code
+#### Single Responsibility Principle (SRP)**: Each class has one clear purpose
+  - `DiscountCalculator` handles only discount calculation logic
+  - `CartCalculator` orchestrates the overall price calculation
+  - `MovieType` encapsulates movie types and pricing
 
 #### Dependency Injection
 - Constructor-based injection for testability
