@@ -35,7 +35,7 @@ This project implements a pricing calculator for a DVD store with a promotional 
 - **Java**: 17 (LTS)
 - **Build Tool**: Maven 3.x
 - **Testing Framework**: JUnit 5
-- **Design Patterns**: Strategy Pattern, Dependency Injection
+- **Design Patterns**: Single Responsibility Principle (SRP), Dependency Injection
 - **Code Style**: Clean Code principles, SOLID principles
 
 ## 📁 Project Structure
